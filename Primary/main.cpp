@@ -356,8 +356,10 @@ int main(){
                 params.dZ2[j] = dz2[j]/3 ; // 3 is the batch_size
             }
  
-        update_parameters(0.00001); //learning rate = 0.01
         }
+        
+        update_parameters(0.00001); //learning rate = 0.01
+        
 
     }
 
