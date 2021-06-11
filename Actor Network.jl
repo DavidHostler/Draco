@@ -137,21 +137,6 @@ function Backpropagation(grad_loss_x, grad_loss_y, first_layer, second_layer, in
 end
 
 
-#Update the parameters
-function update(alpha , Z_x, Z_y, W_x, W_y, Z2, W1, Z1,  
-                        dZ_x, dZ_y, dW_x, dW_y, dW2, dZ2, dW1, dZ1)
-    Z_x = Z_x - dZ_x * alpha
-    Z_y = Z_y - dZ_y * alpha
-    W_x = W_x - dW_x * alpha
-    W_y = W_y - dW_y * alpha    
-    Z2 = Z2 - dZ2 * alpha
-    W1 = W1 - dW1 * alpha
-    Z1 = Z1 - dZ1 * alpha
-    W1 = W1 - dW1 * alpha
-end    
-    
- 
-
 #Gradient descent
 
 alpha = 0.001
