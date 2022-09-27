@@ -1,4 +1,4 @@
-This is a purely pointer-arithemetic implementation of the framework.
+ This is a purely pointer-arithemetic implementation of the framework.
  Weights and biases are stored in as 2D and 1D arrays on the heap. The neural network is an object of the Model class (similar to the Model class
  in both Keras and Pytorch), which implements a doubly linked list of dense hidden layers. 
  
